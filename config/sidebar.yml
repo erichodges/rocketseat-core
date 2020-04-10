@@ -1,0 +1,8 @@
+# Just a simple item
+- label: 'Home'
+  link: '/'
+# With a list of items
+- label: 'With subitens'
+  items:
+    - label: 'My Example'
+      link: '/my-example'

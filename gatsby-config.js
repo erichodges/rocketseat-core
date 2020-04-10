@@ -13,6 +13,17 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
+    {
+      resolve: `@rocketseat/gatsby-theme-docs-core`,
+      options: {
+        basePath: `documentation`,
+        configPath: `config`,
+        docsPath: `docs`,
+        githubUrl: `https://github.com/rocketseat/gatsby-themes`,
+        baseDir: `www`,
+      },
+    },
+    `gatsby-plugin-mdx`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
